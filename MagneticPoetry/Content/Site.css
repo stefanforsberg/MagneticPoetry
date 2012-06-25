@@ -1,68 +1,50 @@
-body
-{
-    font-size: 75%;
-    font-family: Verdana, Tahoma, Arial, "Helvetica Neue", Helvetica, Sans-Serif;
-    color: #232323;
-    background-color: #fff;
-}
+#magnetic-area {
+                width: 960px;
+                height: 700px;
+                border: solid 1px #989898;
+                position: absolute;
+                left: 0px;
+                top: 0px;
+            }
+            
+            .word {
+                padding: 5px;
+                border: solid 1px #bababa;
+                position: absolute;
+                float: left;
+                cursor: move;
+                font-family: Arial;
+                text-shadow: 1px 1px 0px #ffffff;
+                color: #333333;
 
-/* Styles for basic forms
------------------------------------------------------------*/
+                background-image: linear-gradient(bottom, rgb(199,199,199) 9%, rgb(235,235,235) 44%);
+                background-image: -o-linear-gradient(bottom, rgb(199,199,199) 9%, rgb(235,235,235) 44%);
+                background-image: -moz-linear-gradient(bottom, rgb(199,199,199) 9%, rgb(235,235,235) 44%);
+                background-image: -webkit-linear-gradient(bottom, rgb(199,199,199) 9%, rgb(235,235,235) 44%);
+                background-image: -ms-linear-gradient(bottom, rgb(199,199,199) 9%, rgb(235,235,235) 44%);
 
-fieldset 
-{
-    border:1px solid #ddd;
-    padding:0 1.4em 1.4em 1.4em;
-    margin:0 0 1.5em 0;
-}
+                background-image: -webkit-gradient(
+	                linear,
+	                left bottom,
+	                left top,
+	                color-stop(0.09, rgb(199,199,199)),
+	                color-stop(0.44, rgb(235,235,235))
+                );
+            }
+            
+            .occupied {
+                background-image: linear-gradient(bottom, rgb(159,227,252) 9%, rgb(237,245,252) 44%);
+                background-image: -o-linear-gradient(bottom, rgb(159,227,252) 9%, rgb(237,245,252) 44%);
+                background-image: -moz-linear-gradient(bottom, rgb(159,227,252) 9%, rgb(237,245,252) 44%);
+                background-image: -webkit-linear-gradient(bottom, rgb(159,227,252) 9%, rgb(237,245,252) 44%);
+                background-image: -ms-linear-gradient(bottom, rgb(159,227,252) 9%, rgb(237,245,252) 44%);
 
-legend 
-{
-    font-size:1.2em;
-    font-weight: bold;
-}
-
-textarea 
-{
-    min-height: 75px;
-}
-
-.editor-label 
-{
-    margin: 1em 0 0 0;
-}
-
-.editor-field 
-{
-    margin:0.5em 0 0 0;
-}
-
-
-/* Styles for validation helpers
------------------------------------------------------------*/
-.field-validation-error
-{
-    color: #ff0000;
-}
-
-.field-validation-valid
-{
-    display: none;
-}
-
-.input-validation-error
-{
-    border: 1px solid #ff0000;
-    background-color: #ffeeee;
-}
-
-.validation-summary-errors
-{
-    font-weight: bold;
-    color: #ff0000;
-}
-
-.validation-summary-valid
-{
-    display: none;
-}
+                background-image: -webkit-gradient(
+	                linear,
+	                left bottom,
+	                left top,
+	                color-stop(0.09, rgb(159,227,252)),
+	                color-stop(0.44, rgb(237,245,252))
+                );
+                cursor: none;
+            }

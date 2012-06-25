@@ -82,6 +82,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Server\MagneticHub.cs" />
     <Compile Include="Server\Word.cs" />
+    <Compile Include="Server\WordGenerator.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\themes\base\jquery.ui.accordion.css" />
